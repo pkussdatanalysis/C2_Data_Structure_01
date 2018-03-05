@@ -155,8 +155,8 @@
 - Class: cmd_question
   Output: 从speed_vector创建一个有序因子向量：factor_speed_vector。参数ordered设置为TRUE，并将levels设置为c（“slow”，“medium”，“fast”）
   CorrectAnswer: factor_speed_vector <- factor(speed_vector,ordered=TRUE,levels=c("slow","medium","fast"))
-  AnswerTests: omnitest(correctExpr='speed_vector <- c("medium","slow","slow","medium","fast")')
-  Hint: speed_vector <- c("medium","slow","slow","medium","fast")  
+  AnswerTests: omnitest(correctExpr='factor_speed_vector <- factor(speed_vector,ordered=TRUE,levels=c("slow","medium","fast"))')
+  Hint: factor_speed_vector <- factor(speed_vector,ordered=TRUE,levels=c("slow","medium","fast"))  
   
 - Class: mult_question
   Output: 确定将这次练习的结果提交吗?
