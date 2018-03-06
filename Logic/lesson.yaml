@@ -284,14 +284,7 @@
   CorrectAnswer: any(ints == 10)
   AnswerChoices: "any(ints == 10); all(ints == 10); all(c(TRUE, FALSE, TRUE)); any(ints == 2.5)"
   AnswerTests: omnitest(correctVal='any(ints == 10)')
-  Hint: 如果逻辑向量中有一个或多个TRUE元素，则any（）将评估为TRUE。
-  
-- Class: mult_question
-  Output: 确定将这次练习的结果提交吗?
-  CorrectAnswer: NULL
-  AnswerChoices: Yes;No
-  AnswerTests: post_on_demand()
-  Hint: ""   
+  Hint: 如果逻辑向量中有一个或多个TRUE元素，则any（）将评估为TRUE。  
   
 - Class : text
   Output: 这就是R的逻辑操作的介绍！
